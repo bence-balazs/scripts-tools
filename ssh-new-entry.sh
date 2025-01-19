@@ -26,9 +26,9 @@ fi
 cat >> ${CONFLOCATION}<< EOF
 
 Host "${HOSTNAME}"
-  HostName ${HOSTIP}
-  User ${HOSTUSER}
-  Port 22
+HostName ${HOSTIP}
+User ${HOSTUSER}
+Port 22
 EOF
 
 echo "added new ssh alias entry:"
